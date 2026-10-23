@@ -1,0 +1,7 @@
+{
+  auto_https off
+}
+:443 {
+  tls /certs/phone.pem /certs/phone-key.pem
+  reverse_proxy host.docker.internal:5173
+}

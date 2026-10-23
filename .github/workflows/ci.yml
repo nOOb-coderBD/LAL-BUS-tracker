@@ -1,0 +1,53 @@
+name: Checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    services:
+      mongo:
+        image: mongo:7.0
+        ports: ["27017:27017"]
+        options: >-
+          --health-cmd "mongosh --quiet --eval 'quit(db.adminCommand(\"ping\").ok ? 0 : 1)'"
+          --health-interval 5s --health-timeout 5s --health-retries 30
+      redis:
+        image: redis:7.4-alpine
+        ports: ["6379:6379"]
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s --health-timeout 3s --health-retries 30
+      mailpit:
+        image: axllent/mailpit:v1.27
+        ports: ["1025:1025", "8025:8025"]
+    env:
+      NODE_ENV: development
+      ALLOW_DEMO_AUTH: "true"
+      MONGODB_URI: mongodb://127.0.0.1:27017/lal_ci
+      REDIS_URL: redis://127.0.0.1:6379/0
+      APP_ORIGIN: http://localhost:5173
+      SMTP_HOST: 127.0.0.1
+      SMTP_PORT: 1025
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run db:migrate && npm run db:seed && npm run db:demo
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: browser-results
+          path: |
+            test-results
+            playwright-report

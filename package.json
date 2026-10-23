@@ -1,0 +1,43 @@
+{
+  "name": "lal-bus-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"npm run dev -w @lal/api\" \"npm run dev -w @lal/web\"",
+    "build": "npm run build -w @lal/shared && npm run build -w @lal/api && npm run build -w @lal/web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "eslint apps packages tests scripts --max-warnings 0",
+    "test": "tsx --test --test-concurrency=1 tests/unit/*.test.ts tests/integration/*.test.ts",
+    "test:e2e": "playwright test",
+    "db:migrate": "npm run db:migrate -w @lal/api",
+    "db:seed": "npm run db:seed -w @lal/api",
+    "db:demo": "npm run db:demo -w @lal/api",
+    "admin:create": "npm run admin:create -w @lal/api --",
+    "demo:trip": "tsx scripts/demo-trip.ts",
+    "format": "prettier --write apps packages tests scripts docs README.md",
+    "prepare": "npm run build -w @lal/shared",
+    "predev": "npm run build -w @lal/shared",
+    "driver:invite": "npm run driver:invite -w @lal/api --",
+    "test:deployment": "node scripts/check-deployment.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2"
+  }
+}

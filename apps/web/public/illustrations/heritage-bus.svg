@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 485" role="img" aria-labelledby="title desc">
+  <title id="title">A crimson campus bus and heritage arches</title>
+  <desc id="desc">Original stylized illustration of a red double-decker beside architecture inspired by Curzon Hall. Decorative artwork, not a verified vehicle or route.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fae8e0"/><stop offset="1" stop-color="#fff8f4"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0.7" y2="1"><stop stop-color="#e9b0a0"/><stop offset="1" stop-color="#cc8b7e"/></linearGradient>
+    <linearGradient id="bus" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#de3443"/><stop offset=".6" stop-color="#c81f34"/><stop offset="1" stop-color="#a80f24"/></linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9d1026"/><stop offset="1" stop-color="#c52338"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#454758"/><stop offset="1" stop-color="#282d40"/></linearGradient>
+    <linearGradient id="pavement" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f3d9cf"/><stop offset="1" stop-color="#fff9f7"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#733444" flood-opacity=".14"/></filter>
+    <pattern id="brick" width="24" height="14" patternUnits="userSpaceOnUse"><path d="M0 0H24M0 7H24M12 0V7M0 7V14M24 7V14" fill="none" stroke="#af6c65" stroke-width=".5" opacity=".3"/></pattern>
+    <g id="arch"><path d="M0 49V17Q11-7 22 17V49Z" fill="#975e5d"/><path d="M3 49V19Q11 0 19 19V49Z" fill="#684e51"/><path d="M11 9V49M3 29H19" stroke="#cf9b8c" stroke-width="2"/></g>
+    <g id="palm"><path d="M0 110Q5 62 2 29" fill="none" stroke="#849489" stroke-width="5"/><path d="M2 32Q-25-3-46 12Q-16 8 2 32M2 32Q-8-12 10-21Q1 3 2 32M2 32Q22-6 40 4Q17 8 2 32M2 32Q30 17 43 40Q20 25 2 32M2 32Q-26 17-39 39Q-21 25 2 32" fill="#9aa897"/></g>
+  </defs>
+  <circle cx="347" cy="229" r="206" fill="url(#sky)"/>
+  <circle cx="485" cy="103" r="32" fill="#f3d6bd" opacity=".65"/>
+  <path d="M103 376Q254 346 435 370L598 420Q322 470 46 410Z" fill="url(#pavement)"/>
+  <ellipse cx="325" cy="411" rx="220" ry="17" fill="#944f4d" opacity=".11" filter="url(#blur)"/>
+  <!-- A deliberately original heritage silhouette, not an official university emblem. -->
+  <g transform="translate(175 98)" opacity=".88">
+    <path d="M-10 238V123H302V238Z" fill="url(#wall)"/>
+    <path d="M-10 238V123H302V238Z" fill="url(#brick)"/>
+    <path d="M-20 121L-10 112H302L313 121V128H-20Z" fill="#c9857a"/>
+    <path d="M-13 132H304M-10 192H302M-10 234H302" stroke="#f4d4bf" stroke-width="5"/>
+    <path d="M109 238V89L145 68L182 89V238Z" fill="#d99787"/>
+    <path d="M109 238V89L145 68L182 89V238Z" fill="url(#brick)"/>
+    <path d="M101 91L145 64L190 91V98H101Z" fill="#be776e"/>
+    <path d="M117 237V193Q145 134 174 193V237Z" fill="#a96e65"/>
+    <path d="M124 237V195Q145 151 167 195V237Z" fill="#725554"/>
+    <path d="M123 205H168M145 175V237" stroke="#d3a08c" stroke-width="3"/>
+    <path d="M127 72V47H165V72" fill="#e8b49b"/>
+    <path d="M125 48Q126 26 145 17Q165 27 168 48Z" fill="#c68e7d"/>
+    <path d="M145 17V10" stroke="#a86c63" stroke-width="3"/>
+    <path d="M129 45Q145 35 164 45" stroke="#e6b79d" fill="none" stroke-width="2"/>
+    <path d="M115 102H177M112 158H181" stroke="#f0c8ad" stroke-width="4"/>
+    <g transform="translate(134 107) scale(1 .76)"><use href="#arch"/></g>
+    <g transform="translate(11 140)"><use href="#arch"/></g><g transform="translate(46 140)"><use href="#arch"/></g><g transform="translate(81 140)"><use href="#arch"/></g>
+    <g transform="translate(190 140)"><use href="#arch"/></g><g transform="translate(225 140)"><use href="#arch"/></g><g transform="translate(260 140)"><use href="#arch"/></g>
+    <g transform="translate(10 202) scale(1 .7)"><use href="#arch"/></g><g transform="translate(46 202) scale(1 .7)"><use href="#arch"/></g><g transform="translate(81 202) scale(1 .7)"><use href="#arch"/></g>
+    <g transform="translate(190 202) scale(1 .7)"><use href="#arch"/></g><g transform="translate(225 202) scale(1 .7)"><use href="#arch"/></g><g transform="translate(260 202) scale(1 .7)"><use href="#arch"/></g>
+    <path d="M-9 113V100M16 113V100M41 113V100M66 113V100M91 113V100M197 113V100M222 113V100M247 113V100M272 113V100M298 113V100" stroke="#c78677" stroke-width="7"/>
+  </g>
+  <g opacity=".9"><use href="#palm" transform="translate(128 228) scale(.86)"/><use href="#palm" transform="translate(532 207) scale(1.1)"/></g>
+  <path d="M79 351Q88 330 100 348Q116 325 133 345Q151 326 164 351Z" fill="#a3a891"/><path d="M479 350Q493 321 509 345Q522 326 539 345Q555 325 566 352Z" fill="#a3a891"/>
+  <!-- Isometric double-decker, decorative and without invented fleet numbers. -->
+  <g filter="url(#shadow)">
+    <path d="M85 281L143 250L464 279L514 313V393L456 418L113 384Q92 381 88 365Z" fill="url(#side)"/>
+    <path d="M86 279Q87 264 100 263L423 291Q449 293 456 314V400Q456 409 448 410L102 379Q87 377 87 362Z" fill="url(#bus)"/>
+    <path d="M88 279L141 249Q148 246 159 247L461 273L423 291L100 263Z" fill="#e44b55"/>
+    <path d="M423 291L461 273Q482 275 491 290L514 313L456 336V316Q449 295 423 291Z" fill="#be2338"/>
+    <path d="M103 273L415 301Q434 303 438 318L105 290Z" fill="#fff1e7"/>
+    <path d="M103 278L414 306Q426 307 430 316L105 285Z" fill="#e1d2c8"/>
+    <path d="M104 293L438 322V344L104 315Z" fill="url(#glass)"/>
+    <path d="M104 326L438 355V378L104 349Z" fill="url(#glass)"/>
+    <path d="M104 316L438 345V353L104 324Z" fill="#fff2e9"/>
+    <path d="M104 351L438 380V388L104 359Z" fill="#fff2e9"/>
+    <path d="M126 294V317M158 297V320M190 300V323M222 302V326M254 305V329M286 308V331M318 311V334M350 313V337M382 316V340M414 319V342" stroke="#eee4da" stroke-width="4"/>
+    <path d="M126 328V351M158 331V354M190 334V357M222 337V360M254 339V363M286 342V366M318 345V368M350 348V371M382 351V374M414 353V377" stroke="#eee4da" stroke-width="4"/>
+    <path d="M108 297L124 298L108 311ZM140 299L155 300L140 314ZM173 302L186 304L173 317ZM207 306L219 306L207 320ZM240 308L250 309L240 322ZM273 311L283 312L273 324ZM307 314L315 315L307 327ZM340 317L347 317L340 329ZM375 320L379 320L375 331Z" fill="#fff" opacity=".12"/>
+    <path d="M462 316L495 302L509 317V343L462 363Z" fill="#e7e6dc"/>
+    <path d="M467 320L493 309L504 321V339L467 355Z" fill="url(#glass)"/>
+    <path d="M462 368L509 348V374L462 395Z" fill="#f5e9dc"/>
+    <path d="M468 371L503 356V372L468 387Z" fill="url(#glass)"/>
+    <path d="M485 313V347M486 364V380" stroke="#d5c6bc" stroke-width="3"/>
+    <path d="M91 365L442 396" stroke="#8c1126" stroke-width="4"/>
+    <path d="M456 401L512 377V389L456 413Z" fill="#652738"/>
+    <path d="M468 398L477 394V400L468 404ZM498 385L506 381V387L498 391Z" fill="#ffdfab"/>
+    <path d="M443 372L455 376L455 393L443 388Z" fill="#a01328"/>
+    <path d="M457 339L455 323L465 320" stroke="#8e2434" fill="none" stroke-width="3"/>
+    <path d="M103 360V367M112 361V368" stroke="#f5b4a2" stroke-width="2"/>
+    <ellipse cx="158" cy="386" rx="22" ry="27" transform="rotate(-6 158 386)" fill="#3c3040"/>
+    <ellipse cx="158" cy="387" rx="12" ry="17" transform="rotate(-6 158 387)" fill="#d3b8b4"/>
+    <ellipse cx="158" cy="387" rx="6" ry="9" fill="#6b5662"/>
+    <ellipse cx="383" cy="406" rx="22" ry="27" transform="rotate(-6 383 406)" fill="#3c3040"/>
+    <ellipse cx="383" cy="407" rx="12" ry="17" transform="rotate(-6 383 407)" fill="#d3b8b4"/>
+    <ellipse cx="383" cy="407" rx="6" ry="9" fill="#6b5662"/>
+    <path d="M135 384Q132 351 158 353Q184 357 183 389M359 403Q357 372 383 374Q409 376 408 409" fill="none" stroke="#be2639" stroke-width="5"/>
+  </g>
+  <path d="M66 415Q140 430 244 431M443 440Q510 438 563 422" stroke="#dfb9b2" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M578 199h10m-5-5v10M79 217h8m-4-4v8M476 64h8m-4-4v8" stroke="#d5a296" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="102" cy="158" r="3" fill="#e8bdab"/><circle cx="570" cy="285" r="3" fill="#e8bdab"/>
+  <path d="M98 401c13 0 17-2 21-5M522 422c14 0 20-2 26-4" stroke="#c6998e" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
