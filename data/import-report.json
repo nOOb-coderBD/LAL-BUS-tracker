@@ -1,0 +1,86 @@
+{
+  "routeCount": 17,
+  "scheduleCount": 205,
+  "sourceIsLive": false,
+  "allEntriesNeedAdminVerification": true,
+  "sourceSha256": "07199228ba6622a38cf27b4e5345b09cd3c5a83fe647386286f4d1abbad17a30",
+  "routeCounts": [
+    {
+      "slug": "isha-kha",
+      "entries": 22
+    },
+    {
+      "slug": "khonika",
+      "entries": 22
+    },
+    {
+      "slug": "torongo",
+      "entries": 19
+    },
+    {
+      "slug": "choitali",
+      "entries": 16
+    },
+    {
+      "slug": "srabon",
+      "entries": 16
+    },
+    {
+      "slug": "boishakhi",
+      "entries": 15
+    },
+    {
+      "slug": "ullash",
+      "entries": 14
+    },
+    {
+      "slug": "kinchit",
+      "entries": 12
+    },
+    {
+      "slug": "bosonto",
+      "entries": 12
+    },
+    {
+      "slug": "moitree",
+      "entries": 11
+    },
+    {
+      "slug": "falguni",
+      "entries": 9
+    },
+    {
+      "slug": "anondo",
+      "entries": 8
+    },
+    {
+      "slug": "hemonto",
+      "entries": 7
+    },
+    {
+      "slug": "wari-bateshwar",
+      "entries": 4
+    },
+    {
+      "slug": "idrakpur",
+      "entries": 2
+    },
+    {
+      "slug": "mawa-bikrampur",
+      "entries": 2
+    },
+    {
+      "slug": "curzon-kuwait-maitree",
+      "entries": 14
+    }
+  ],
+  "ambiguities": [
+    "All operating days unknown; no projection onto actual dates",
+    "Route text and stop spellings require manual confirmation; no geocoding performed",
+    "Route names are not physical bus identities; no fleet inventory generated",
+    "Duplicate departure times preserved by original per-route index",
+    "Staff-only flags retained; screenshot timestamps are historical metadata",
+    "Unknown physical numbers remain null; supplied number strings preserved only on source schedules"
+  ],
+  "duplicateDepartureEntries": 5
+}

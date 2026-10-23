@@ -1,0 +1,77 @@
+name: lal-bus-tracker
+services:
+  mongo:
+    image: mongo:7.0
+    restart: unless-stopped
+    ports: ["127.0.0.1:27017:27017"]
+    volumes: [mongo_data:/data/db]
+    healthcheck:
+      test: [CMD, mongosh, --quiet, --eval, "quit(db.adminCommand('ping').ok ? 0 : 1)"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+  redis:
+    image: redis:7.4-alpine
+    restart: unless-stopped
+    command: [redis-server, --appendonly, "yes", --maxmemory, 256mb, --maxmemory-policy, noeviction]
+    ports: ["127.0.0.1:6379:6379"]
+    volumes: [redis_data:/data]
+    healthcheck:
+      test: [CMD, redis-cli, ping]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+  mailpit:
+    image: axllent/mailpit:v1.27
+    restart: unless-stopped
+    ports: ["127.0.0.1:1025:1025", "127.0.0.1:8025:8025"]
+  api:
+    profiles: [app]
+    build:
+      context: .
+      dockerfile: infra/docker/api.Dockerfile
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      NODE_ENV: ${APP_NODE_ENV:-production}
+      ALLOW_DEMO_AUTH: ${APP_ALLOW_DEMO_AUTH:-false}
+      MONGODB_URI: mongodb://mongo:27017/lal_bus
+      REDIS_URL: redis://redis:6379/0
+      SMTP_HOST: ${APP_SMTP_HOST:-mailpit}
+      SMTP_PORT: ${APP_SMTP_PORT:-1025}
+      # nginx -> API is one hop; set 2 explicitly when Caddy fronts nginx.
+      TRUST_PROXY: ${APP_TRUST_PROXY_HOPS:-1}
+    depends_on:
+      mongo: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    expose: ["4000"]
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:4000/api/v1/health/ready').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+  web:
+    profiles: [app]
+    build:
+      context: .
+      dockerfile: infra/docker/web.Dockerfile
+      args:
+        VITE_MAP_TILE_URL: ${VITE_MAP_TILE_URL:-https://tile.openstreetmap.org/{z}/{x}/{y}.png}
+        VITE_MAP_ATTRIBUTION: ${VITE_MAP_ATTRIBUTION:-OpenStreetMap contributors}
+    restart: unless-stopped
+    ports: ["127.0.0.1:8080:80"]
+    depends_on: [api]
+  phone:
+    profiles: [phone]
+    image: caddy:2.10-alpine
+    environment:
+      NO_PROXY: host.docker.internal,localhost,127.0.0.1
+      no_proxy: host.docker.internal,localhost,127.0.0.1
+    ports: ["8443:443"]
+    volumes:
+      - ./infra/caddy/Caddyfile.phone:/etc/caddy/Caddyfile:ro
+      - ./infra/certs:/certs:ro
+    extra_hosts: ["host.docker.internal:host-gateway"]
+volumes:
+  mongo_data:
+  redis_data:

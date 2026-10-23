@@ -1,0 +1,41 @@
+{
+  "startedAt": "2026-10-22T20:07:30.295Z",
+  "durationSeconds": 6.023,
+  "viewersRequested": 5,
+  "connected": 5,
+  "subscribed": 5,
+  "connectionErrors": 0,
+  "subscriptionErrors": 0,
+  "unexpectedDisconnects": 0,
+  "regressions": 0,
+  "connectionSuccessRate": 1,
+  "connectionMs": {
+    "count": 5,
+    "p50": 27,
+    "p95": 49,
+    "p99": 49
+  },
+  "deliveryMs": {
+    "count": 15,
+    "p50": 14,
+    "p95": 22,
+    "p99": 22
+  },
+  "deliveredPerViewer": {
+    "min": 3,
+    "max": 3
+  },
+  "expectedMessagesPerViewer": 3,
+  "missingMessages": 0,
+  "measurementScope": "connections_and_expected_broadcasts",
+  "note": "Publish exactly EXPECTED_MESSAGES distinct versions during this window.",
+  "generator": {
+    "rssBytes": 50647040,
+    "cpuUsageMicroseconds": {
+      "user": 327798,
+      "system": 79532
+    },
+    "eventLoopP99Ms": 25.788415
+  },
+  "passed": true
+}

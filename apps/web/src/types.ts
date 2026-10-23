@@ -1,0 +1,72 @@
+export type User = {
+  _id: string;
+  name: string;
+  email: string;
+  role: 'STUDENT' | 'DRIVER' | 'ADMIN';
+  status: string;
+  isDemo: boolean;
+  emailVerifiedAt: string | null;
+};
+export type Route = {
+  _id: string;
+  slug: string;
+  nameBn: string;
+  subtitle: string | null;
+  routeUpText: string | null;
+  routeDownText: string | null;
+  status: string;
+  routeGeometry: unknown | null;
+  source?: Record<string, unknown>;
+};
+export type Schedule = {
+  _id: string;
+  routeId: string;
+  direction: 'UP' | 'DOWN';
+  departureTime: string;
+  departurePlace: string | null;
+  busId: string | null;
+  busType: string | null;
+  vehicleNumber: string | null;
+  daysOfWeek: number[] | null;
+  isStaffOnly: boolean;
+  notes: string | null;
+  status: string;
+};
+export type Bus = {
+  _id: string;
+  displayNameBn: string;
+  displayNameEn?: string | null;
+  fleetNumber: string | null;
+  registrationNumber: string | null;
+  busType: string;
+  routeIds: string[];
+  assignedDriverIds: string[];
+  active: boolean;
+  approved: boolean;
+  isDemo: boolean;
+};
+export type Position = {
+  latitude: number;
+  longitude: number;
+  accuracy: number | null;
+  heading: number | null;
+  speed: number | null;
+  observedAt: string;
+  receivedAt: string;
+  simulated?: boolean;
+};
+export type Trip = {
+  _id: string;
+  busId: string;
+  routeId: string;
+  driverId: string;
+  direction: 'UP' | 'DOWN';
+  status: string;
+  startedAt: string;
+  endedAt: string | null;
+  isDemo: boolean;
+  version: number;
+  freshness: 'LIVE' | 'STALE' | 'OFFLINE' | 'ENDED';
+  latestPosition: Position | null;
+};
+export type Collection<T> = { items: T[]; total: number; page: number; limit: number };

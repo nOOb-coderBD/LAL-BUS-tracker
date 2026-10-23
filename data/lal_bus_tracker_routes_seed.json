@@ -1,0 +1,2332 @@
+{
+  "project": "Lal Bus Tracker",
+  "timezone": "Asia/Dhaka",
+  "source": "User-supplied DU Apps screenshots (Oct 2026); current schedule not independently verified",
+  "sourceIsLive": false,
+  "verificationRequired": true,
+  "notice": "Schedules and stop spellings are transcribed from screenshots and may contain errors or have changed. Require admin verification prior to public use. Screenshot data is not real-time, and most screenshots do not contain a vehicle number. Do not fabricate missing fields.",
+  "busRoutes": [
+    {
+      "slug": "isha-kha",
+      "nameBn": "ঈশা খাঁ",
+      "subtitleFromScreenshot": "কার্জন হল টু মোগড়াপাড়া",
+      "routeUpText": "মোগড়াপাড়া, মদনপুর, কাঁচপুর, চিটাগাংরোড, দশতলা, মৌচাক, সানারপাড়, সাইনবোর্ড, সাদ্দাম মার্কেট, মাতুয়াইল, রায়েরবাগ, শনির আখড়া, কাজলা, চাবি",
+      "routeDownText": null,
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "06:25",
+          "departurePlace": "ভবেরচর",
+          "busType": "সিঙ্গেল ডেকার",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "06:50",
+          "departurePlace": "কাঁচপুর",
+          "busType": "ডাবল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:10",
+          "departurePlace": "মোগড়াপাড়া",
+          "busType": "সিঙ্গেল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:30",
+          "departurePlace": "মোগড়াপাড়া",
+          "busType": "ডাবল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:40",
+          "departurePlace": "ভবেরচর",
+          "busType": "সিঙ্গেল",
+          "vehicleNumber": null,
+          "notes": "স্টাফ বাস",
+          "daysOfWeek": null,
+          "isStaffOnly": true
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:55",
+          "departurePlace": "কাঁচপুর",
+          "busType": "ডাবল",
+          "vehicleNumber": null,
+          "notes": "স্টাফ বাস",
+          "daysOfWeek": null,
+          "isStaffOnly": true
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:20",
+          "departurePlace": "কাঁচপুর",
+          "busType": "সিঙ্গেল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:40",
+          "departurePlace": "কাঁচপুর",
+          "busType": "ডাবল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:00",
+          "departurePlace": "মাতুয়াইল",
+          "busType": "সিঙ্গেল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:30",
+          "departurePlace": "মোগড়াপাড়া",
+          "busType": "সিঙ্গেল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "10:00",
+          "departurePlace": "মাতুয়াইল",
+          "busType": "সিঙ্গেল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "12:20",
+          "departurePlace": "ভিসি চত্বর - কাঁচপুর",
+          "busType": "সিঙ্গেল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:35",
+          "departurePlace": "সিনেট - ভবেরচর",
+          "busType": "সিঙ্গেল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:35",
+          "departurePlace": "ভিসি চত্বর - কাঁচপুর",
+          "busType": "ডাবল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:30",
+          "departurePlace": "ভিসি চত্বর - কাঁচপুর",
+          "busType": "ডাবল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:30",
+          "departurePlace": "ভিসি চত্বর - মোগড়াপাড়া",
+          "busType": "সিঙ্গেল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:05",
+          "departurePlace": "ভিসি চত্বর - ভবেরচর",
+          "busType": "সিঙ্গেল",
+          "vehicleNumber": null,
+          "notes": "স্টাফ বাস",
+          "daysOfWeek": null,
+          "isStaffOnly": true
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:10",
+          "departurePlace": "ভিসি চত্বর - কাঁচপুর",
+          "busType": "ডাবল",
+          "vehicleNumber": null,
+          "notes": "স্টাফ বাস",
+          "daysOfWeek": null,
+          "isStaffOnly": true
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:40",
+          "departurePlace": "সিনেট - কাঁচপুর",
+          "busType": "সিঙ্গেল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:10",
+          "departurePlace": "ভিসি চত্বর - কাঁচপুর",
+          "busType": "ডাবল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:40",
+          "departurePlace": "ভিসি চত্বর - মোগড়াপাড়া",
+          "busType": "ডাবল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "20:00",
+          "departurePlace": "ভিসি চত্বর - মোগড়াপাড়া",
+          "busType": "সিঙ্গেল",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004133_DU Apps.jpg",
+      "publishedLastUpdatedText": "৩ মাস আগে",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 1
+    },
+    {
+      "slug": "khonika",
+      "nameBn": "ক্ষণিকা",
+      "subtitleFromScreenshot": "কার্জন হল টু টঙ্গী / গাজীপুর",
+      "routeUpText": "শিববাড়ি → চৌরাস্তা → বাইপাস → মালেকের বাড়ি → সাইনবোর্ড → বোর্ডবাজার → বড়বাড়ি → কলেজগেইট → স্টেশনরোড → টঙ্গী বাজার → আব্দুল্লাহপুর → হাউজবিল্ডিং → আজমপুর → জসিমউদ্দিন → বিমানবন্দর → কাওলা → খিলক্ষেত → বিশ্বরোড → শ্যাওড়া → কুড়িল",
+      "routeDownText": null,
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "06:15",
+          "departurePlace": "শিববাড়ি",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "06:30",
+          "departurePlace": "কোনাবাড়ি",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "06:30",
+          "departurePlace": "কলেজগেইট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "06:45",
+          "departurePlace": "চৌরাস্তা",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:00",
+          "departurePlace": "কলেজগেইট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:10",
+          "departurePlace": "শিববাড়ি",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:30",
+          "departurePlace": "কলেজগেইট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:15",
+          "departurePlace": "শিববাড়ি",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:15",
+          "departurePlace": "কলেজগেইট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:45",
+          "departurePlace": "কলেজগেইট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:30",
+          "departurePlace": "কলেজগেইট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "12:15",
+          "departurePlace": "কার্জন - কলেজগেইট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:10",
+          "departurePlace": "কার্জন - শিববাড়ি",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:50",
+          "departurePlace": "ভিসি চত্বর - কলেজগেইট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:45",
+          "departurePlace": "কার্জন - কোনাবাড়ি",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:20",
+          "departurePlace": "ভিসি চত্বর - শিববাড়ি",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:50",
+          "departurePlace": "কার্জন - কলেজগেইট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": "এক্সপ্রেসওয়ে কুড়িল",
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:15",
+          "departurePlace": "ভিসি চত্বর - শিববাড়ি",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": "এক্সপ্রেসওয়ে কুড়িল",
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:40",
+          "departurePlace": "কার্জন - কলেজগেইট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:10",
+          "departurePlace": "কার্জন - শিববাড়ি",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": "এক্সপ্রেসওয়ে এয়ারপোর্ট",
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:40",
+          "departurePlace": "ভিসি চত্বর - কলেজগেইট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "19:30",
+          "departurePlace": "ভিসি চত্বর - কলেজগেইট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004141_DU Apps.jpg",
+      "publishedLastUpdatedText": "৩ মাস আগে",
+      "sourceNotes": "Screenshot route note describes three exceptional down trips via TSC/Shahbag; verify exact times manually with admin before applying.",
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 2
+    },
+    {
+      "slug": "torongo",
+      "nameBn": "তরঙ্গ",
+      "subtitleFromScreenshot": "কার্জন হল টু মোহাম্মদপুর",
+      "routeUpText": "ডিআরএমসি (শুধুমাত্র ৭টার বাস), মৈত্রী কাউন্টার, মোহাম্মদপুর বাসস্ট্যান্ড, একাডেমিয়া, ধানমন্ডি ২৭ যাত্রী ছাউনি, ধানমন্ডি ১৯ (আবাহনী মাঠ), ধানমন্ডি ১৫ (কাকলী), জিগাতলা (এক্সট্যাসি শোরুমের সামনে), নীলক্ষেত মোড়, কলা ভবন, টিএসসি, মোতাহার হোসেন ভবন, কার্জন হল",
+      "routeDownText": "কার্জন হল, মোতাহার হোসেন ভবন, টিএসসি, ভিসি চত্বর, জিগাতলা, ১৫ নাম্বার (বিএফসি), স্টার কাবাব, শংকর, গ্রাফিকা কলেজ, বাস স্ট্যান্ড, নূরজাহান রোড, সলিমুল্লাহ রোড, টাউনহল, আসাদ গেট",
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "07:10",
+          "departurePlace": "মোহাম্মদপুর ক্লাব পার্ক",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:30",
+          "departurePlace": "মোহাম্মদপুর ক্লাব পার্ক",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:00",
+          "departurePlace": "মোহাম্মদপুর ক্লাব পার্ক",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:30",
+          "departurePlace": "মোহাম্মদপুর ক্লাব পার্ক",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:45",
+          "departurePlace": "বসিলা",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:30",
+          "departurePlace": "মোহাম্মদপুর ক্লাব পার্ক",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "10:00",
+          "departurePlace": "মোহাম্মদপুর ক্লাব পার্ক",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "10:15",
+          "departurePlace": "মোহাম্মদপুর ক্লাব পার্ক",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "12:40",
+          "departurePlace": "Curzon Hall",
+          "busType": "Single Deck",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:10",
+          "departurePlace": "Curzon Hall",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:50",
+          "departurePlace": "Curzon Hall",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:30",
+          "departurePlace": "Curzon Hall",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:10",
+          "departurePlace": "Curzon Hall",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:40",
+          "departurePlace": "Curzon Hall",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:10",
+          "departurePlace": "Curzon Hall",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:40",
+          "departurePlace": "Curzon Hall-Bosila",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:10",
+          "departurePlace": "Curzon Hall",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:30",
+          "departurePlace": "Curzon Hall",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "20:00",
+          "departurePlace": "Curzon Hall",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004155_DU Apps.jpg",
+      "publishedLastUpdatedText": "৩ মাস আগে",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 3
+    },
+    {
+      "slug": "choitali",
+      "nameBn": "চৈতালী",
+      "subtitleFromScreenshot": "কার্জন হল টু মিরপুর-১২",
+      "routeUpText": "মিরপুর-১২, মিরপুর-১১.৩০, মিরপুর-৬, ২, ১, বাংলা কলেজ, টেকনিক্যাল, শ্যামলী, মলচত্বর, টিএসসি",
+      "routeDownText": "টিএসসি, মলচত্বর, শ্যামলী, টেকনিক্যাল, বাংলা কলেজ, মিরপুর-৬, ২, ১, মিরপুর-১১.৩০, মিরপুর-১২",
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "06:40",
+          "departurePlace": "মিরপুর-১২",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:10",
+          "departurePlace": "মিরপুর-১২",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:10",
+          "departurePlace": "মিরপুর-১২",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:40",
+          "departurePlace": "মিরপুর-১২",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:20",
+          "departurePlace": "মিরপুর-১২",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:00",
+          "departurePlace": "মিরপুর-১২",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "10:00",
+          "departurePlace": "মিরপুর-১২",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "10:00",
+          "departurePlace": "মিরপুর-১২",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "12:20",
+          "departurePlace": "মল চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:35",
+          "departurePlace": "মল চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:35",
+          "departurePlace": "CURZON HALL",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:35",
+          "departurePlace": "CURZON HALL",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:20",
+          "departurePlace": "মল চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:10",
+          "departurePlace": "CURZON HALL",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:40",
+          "departurePlace": "CURZON HALL",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "19:30",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004204_DU Apps.jpg",
+      "publishedLastUpdatedText": "৩ মাস আগে",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 4
+    },
+    {
+      "slug": "srabon",
+      "nameBn": "শ্রাবণ",
+      "subtitleFromScreenshot": "কার্জন হল টু মুগদাপাড়া",
+      "routeUpText": null,
+      "routeDownText": null,
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "07:00",
+          "departurePlace": "মুগদা স্টেডিয়াম",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:20",
+          "departurePlace": "মুগদা স্টেডিয়াম",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:55",
+          "departurePlace": "মুগদা গার্মেন্টস",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:15",
+          "departurePlace": "মুগদা স্টেডিয়াম",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:00",
+          "departurePlace": "মুগদা স্টেডিয়াম",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "10:00",
+          "departurePlace": "মুগদা স্টেডিয়াম",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "10:30",
+          "departurePlace": "মুগদা স্টেডিয়াম",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "12:15",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:30",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:20",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:00",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:40",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:30",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:00",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:30",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "20:00",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004211_DU Apps.jpg",
+      "publishedLastUpdatedText": "৩ মাস আগে",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 5
+    },
+    {
+      "slug": "boishakhi",
+      "nameBn": "বৈশাখী",
+      "subtitleFromScreenshot": "চাবি টু মিরপুর ১৪ / কচুক্ষেত",
+      "routeUpText": "পুলপাড়, মিলি সুপার মার্কেট, ১৪ নাম্বার, পুলিশ কলেজ, পুলিশ স্টাফ কলেজ, ১৩ নাম্বার, পানির ট্যাংকি, ১০ নাম্বার শাহজালাল ইসলামী ব্যাংকের পরে, কাজীপাড়া ওভারব্রিজ, শেওড়াপাড়া বাসস্ট্যান্ড (পুলিশ বক্সের পাশে), তালতলা, শেরে বাংলা কৃষি বিশ্ববিদ্যালয় সেকেন্ড গেট",
+      "routeDownText": "শেরে বাংলা কৃষি বিশ্ববিদ্যালয় সেকেন্ড গেট, তালতলা, শেওড়াপাড়া, শেওড়াপাড়া টেকনিক্যাল, কাজীপাড়া, আল হেলাল এর অপোজিট, ১০ নাম্বার ওভারব্রিজ, পানির ট্যাংকি, ১৩ নাম্বার, পুলিশ স্টাফ কলেজ, পুলিশ কলেজ, ১৪ নাম্বার, পুলপাড়",
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "06:40",
+          "departurePlace": "কচুক্ষেত",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:00",
+          "departurePlace": "মিলি সুপার মার্কেট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:30",
+          "departurePlace": "মিলি সুপার মার্কেট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:00",
+          "departurePlace": "মিলি সুপার মার্কেট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:45",
+          "departurePlace": "মিলি সুপার মার্কেট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:25",
+          "departurePlace": "মিলি সুপার মার্কেট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "10:00",
+          "departurePlace": "মিলি সুপার মার্কেট",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "12:30",
+          "departurePlace": "কার্জন হল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:15",
+          "departurePlace": "কার্জন হল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:20",
+          "departurePlace": "কার্জন হল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:30",
+          "departurePlace": "কার্জন হল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:15",
+          "departurePlace": "কার্জন হল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:45",
+          "departurePlace": "কার্জন হল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:30",
+          "departurePlace": "কার্জন হল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "20:00",
+          "departurePlace": "কার্জন হল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004217_DU Apps.jpg",
+      "publishedLastUpdatedText": "৩ মাস আগে",
+      "sourceNotes": "Screenshot 7 duplicates screenshot 6; source timestamps show same itinerary.",
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 6
+    },
+    {
+      "slug": "ullash",
+      "nameBn": "উল্লাস",
+      "subtitleFromScreenshot": "কার্জন হল টু পোস্তগোলা",
+      "routeUpText": "পোস্তগোলা, জোরাইন, ধোলাইপাড়, নবীনগর, মীর হাজীরবাগ, দয়াগঞ্জ, টিকাটুলী, চাবি",
+      "routeDownText": "চাবি, টিকাটুলী (ফ্লাইওভার), ধোলাইপাড়, পোস্তগোলা, জোরাইন, নবীনগর, মীর হাজীরবাগ, দয়াগঞ্জ",
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "07:00",
+          "departurePlace": "পোস্তগোলা",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:00",
+          "departurePlace": "পোস্তগোলা",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:30",
+          "departurePlace": "পোস্তগোলা",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:00",
+          "departurePlace": "পোস্তগোলা",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:30",
+          "departurePlace": "পোস্তগোলা",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "10:00",
+          "departurePlace": "পোস্তগোলা",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "12:10",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:10",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:10",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:10",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:15",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:10",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:35",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "19:30",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004237_DU Apps.jpg",
+      "publishedLastUpdatedText": "৩ মাস আগে",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 8
+    },
+    {
+      "slug": "kinchit",
+      "nameBn": "কিঞ্চিৎ",
+      "subtitleFromScreenshot": "কার্জন হল টু কমলাপুর",
+      "routeUpText": "Arambagh, Kamalapur, Ideal School & College gate, Rajarbagh, Malibagh, Mouchak & Wireless",
+      "routeDownText": null,
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "07:00",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:00",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:50",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:50",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "12:30",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:30",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:30",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:20",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:20",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:00",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:30",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "20:00",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004243_DU Apps.jpg",
+      "publishedLastUpdatedText": "৩ মাস আগে",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 9
+    },
+    {
+      "slug": "bosonto",
+      "nameBn": "বসন্ত",
+      "subtitleFromScreenshot": "কার্জন হল টু রামপুরা",
+      "routeUpText": "রামপুরা টিভি সেন্টার, রামপুরা বাজার, হাজীপাড়া পেট্রোল পাম্প, মালিবাগ কমিউনিটি সেন্টার, খিলগাঁও পুলিশ ফাঁড়ি",
+      "routeDownText": "ভিসি চত্বর, কেন্দ্রীয় লাইব্রেরি, এনেক্স বিল্ডিং, দোয়েল চত্বর (কার্জন)",
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "07:20",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:00",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:00",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:50",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "10:30",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "12:35",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:35",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:35",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:35",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:35",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:35",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "20:00",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004248_DU Apps.jpg",
+      "publishedLastUpdatedText": "৩ মাস আগে",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 10
+    },
+    {
+      "slug": "moitree",
+      "nameBn": "মৈত্রী",
+      "subtitleFromScreenshot": "কার্জন হল টু আদমজী আই. ই. টি স্কুল",
+      "routeUpText": "আই. ই. টি স্কুল, পাঠানটোলি, চৌধুরী পাড়া, ২ নম্বর, জাউলাপাড়া, আদমজী, পাওয়ার হাউস, সিদ্ধিরগঞ্জ, চিটাগাং রোড, গলাকাটা, রানীমহল, সারুলিয়া বাজার, স্টাফকোয়ার্টার, বাঁশেরপুল, কোনাপাড়া, মাতুয়াইল-ভাঙ্গা প্রেস, যাত্রাবাড়ী",
+      "routeDownText": null,
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "06:25",
+          "departurePlace": "আই. ই. টি স্কুল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:10",
+          "departurePlace": "আই. ই. টি স্কুল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:00",
+          "departurePlace": "রানীমহল",
+          "busType": "Staff bus",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": true
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:20",
+          "departurePlace": "আই. ই. টি স্কুল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:20",
+          "departurePlace": "আই. ই. টি স্কুল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "12:15",
+          "departurePlace": "ভিসি চত্বর-আই. ই. টি স্কুল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:15",
+          "departurePlace": "ভিসি চত্বর-আই. ই. টি স্কুল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:15",
+          "departurePlace": "ভিসি চত্বর-আই. ই. টি স্কুল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:35",
+          "departurePlace": "ভিসি চত্বর-আই. ই. টি স্কুল",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:05",
+          "departurePlace": "ভিসি চত্বর-রানীমহল",
+          "busType": "Staff bus",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": true
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:15",
+          "departurePlace": "ভিসি চত্বর-আই. ই. টি স্কুল",
+          "busType": "Staff bus",
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": true
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004257_DU Apps.jpg",
+      "publishedLastUpdatedText": "23-Jul-2025",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 11
+    },
+    {
+      "slug": "falguni",
+      "nameBn": "ফাল্গুনী",
+      "subtitleFromScreenshot": "কার্জন হল টু বাড্ডা, গুলশান",
+      "routeUpText": "বিকল্প ১: লিংক রোড, হোসেন মার্কেট, উত্তর বাড্ডা, সুবাস্তু, শাহজাদপুর, বাঁশতলা, নতুন বাজার, গুলশান ১, টিভি গেইট, ওয়্যারলেস, আমতলী, মহাখালী, নাবিস্কো। বিকল্প ২: নতুনবাজার, বাঁশতলা, শাহজাদপুর, সুবাস্তু, উত্তর বাড্ডা, হোসেন মার্কেট, মধ্য বাড্ডা, লিংক রোড, গুদারাঘাট, গুলশান ১, টিভি গেইট, ওয়্যারলেস, আমতলী, মহাখালী, নাবিস্কো",
+      "routeDownText": null,
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "06:40",
+          "departurePlace": "লিংক রোড",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:30",
+          "departurePlace": "বসুন্ধরা",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:40",
+          "departurePlace": "নতুনবাজার",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:40",
+          "departurePlace": "বসুন্ধরা",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:10",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:30",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:10",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:10",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "19:30",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004306_DU Apps.jpg",
+      "publishedLastUpdatedText": "৩ মাস আগে",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 12
+    },
+    {
+      "slug": "anondo",
+      "nameBn": "আনন্দ",
+      "subtitleFromScreenshot": "চাবি টু নারায়ণগঞ্জ",
+      "routeUpText": "নন্দিরপাড়া, ২ নম্বর গেট, কালীরবাজার, চাষাড়া, জেলা প্রশাসন, রনি মার্কেট, স্টুডিয়াম, রুইগর, জালকুড়ি, সাইনবোর্ড, কার্জন হল, টিএসসি, মল চত্বর",
+      "routeDownText": "মল চত্বর, টিএসসি, কার্জন হল, সাইনবোর্ড, জালকুড়ি, রুইগর, স্টুডিয়াম, রনি মার্কেট, জেলা প্রশাসন, চাষাড়া, কালীরবাজার, ২ নম্বর গেট, নন্দিরপাড়া",
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "06:50",
+          "departurePlace": "NARAYANGONJ",
+          "busType": null,
+          "vehicleNumber": "4168",
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:30",
+          "departurePlace": "NARAYANGONJ",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:50",
+          "departurePlace": "NARAYANGONJ",
+          "busType": null,
+          "vehicleNumber": "14-0064",
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:50",
+          "departurePlace": "NARAYANGONJ",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:05",
+          "departurePlace": "মল চত্বর",
+          "busType": null,
+          "vehicleNumber": "14-0064",
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:30",
+          "departurePlace": "মল চত্বর",
+          "busType": null,
+          "vehicleNumber": "08-0035",
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:05",
+          "departurePlace": "মল চত্বর",
+          "busType": null,
+          "vehicleNumber": "4168",
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:10",
+          "departurePlace": "ভিসি চত্বর",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004311_DU Apps.jpg",
+      "publishedLastUpdatedText": "06-Oct-2024",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 13
+    },
+    {
+      "slug": "hemonto",
+      "nameBn": "হেমন্ত",
+      "subtitleFromScreenshot": "কার্জন হল টু সাভার / নবীনগর",
+      "routeUpText": "সাভার / নবীনগর, নবীনগর জয়া, বিশমাইল, সি এম বি, সাভার স্ট্যান্ড, খানা স্ট্যান্ড, গেন্ডা, ফুলবাড়ীয়া, ওলাইন, গাবতলী, ক্যাম্পাস",
+      "routeDownText": "ক্যাম্পাস, গাবতলী, ওলাইন, ফুলবাড়ীয়া, গেন্ডা, খানা স্ট্যান্ড, সাভার স্ট্যান্ড, সি এম বি, বিশমাইল, নবীনগর জয়া, সাভার",
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "06:10",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:00",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "07:30",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:30",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:10",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:10",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:00",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004314_DU Apps.jpg",
+      "publishedLastUpdatedText": "06-Oct-2024",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 14
+    },
+    {
+      "slug": "wari-bateshwar",
+      "nameBn": "উয়ারী-বটেশ্বর",
+      "subtitleFromScreenshot": "কার্জন হল টু বাঁশচটা",
+      "routeUpText": "ইটাখোলা, বেলানগর, সাহেপ্রতাপ, পাঁচ দোনা, মাধবদী, পুরিন্দা, গাউসিয়া ব্রিজ আর গোড়া, বরফা, বরাবর, ক্যাম্পাস",
+      "routeDownText": "ক্যাম্পাস, বরাবর, বরফা, গাউসিয়া ব্রিজ আর গোড়া, পুরিন্দা, মাধবদী, পাঁচ দোনা, সাহেপ্রতাপ, বেলানগর, ইটাখোলা",
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "06:20",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": "11-0061",
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "06:30",
+          "departurePlace": "বাঁশচটা",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:00",
+          "departurePlace": "MOLL CHATTAR",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "16:45",
+          "departurePlace": "MOLL CHATTAR",
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004320_DU Apps.jpg",
+      "publishedLastUpdatedText": "06-Oct-2024",
+      "sourceNotes": "Name and destination spellings to confirm with transport office.",
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 15
+    },
+    {
+      "slug": "idrakpur",
+      "nameBn": "ইদ্রাকপুর",
+      "subtitleFromScreenshot": "ঢাকা বিশ্ববিদ্যালয় - ইদ্রাকপুর (মুন্সিগঞ্জ)",
+      "routeUpText": "ইদ্রাকপুর, মুক্তারপুর, পঞ্চবটি, গোরস্থান, চাষাড়া, উপজেলা, শিবু মার্কেট, স্টুডিয়াম, জালকুড়ি, রুইগড়, সাইনবোর্ড, মলচত্বর",
+      "routeDownText": "মলচত্বর, সাইনবোর্ড, রুইগড়, জালকুড়ি, স্টুডিয়াম, শিবু মার্কেট, উপজেলা, চাষাড়া, গোরস্থান, পঞ্চবটি, মুক্তারপুর, ইদ্রাকপুর",
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "06:35",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:10",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004325_DU Apps.jpg",
+      "publishedLastUpdatedText": "06-Oct-2024",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 16
+    },
+    {
+      "slug": "mawa-bikrampur",
+      "nameBn": "ঢাকা বিশ্ববিদ্যালয় - মাওয়া (বিক্রমপুর)",
+      "subtitleFromScreenshot": null,
+      "routeUpText": "মাওয়া ঘাট, মাওয়া চৌরাস্তা, সমসপুর, শ্রীনগর ফেরিঘাট, শ্রীনগর ভেজগাঁও, সন বাড়ি, ঘোলা ঘর, হাসাড়া স্কুল গেট, হাসাড়া কলেজ গেট, নিমতলী, কয়রাপাড়া কলেজ গেট, কয়রাপাড়া টোল প্লাজা, আব্দুল্লাপুর, রাজেন্দ্রপুর, চলকাঠিয়া চৌরাস্তা, কদমতলী চৌরাস্তা, বাবু বাজার ব্রিজ, তাঁতী বাজার, ক্যাম্পাস",
+      "routeDownText": "ক্যাম্পাস, রাজেন্দ্রপুর, আব্দুল্লাপুর, কয়রাপাড়া টোল প্লাজা, কয়রাপাড়া কলেজ গেট, নিমতলী, হাসাড়া কলেজ গেট, হাসাড়া স্কুল গেট, ঘোলা ঘর, সন বাড়ি, শ্রীনগর ভেজগাঁও, শ্রীনগর ফেরিঘাট, সমসপুর, মাওয়া চৌরাস্তা, মাওয়া ঘাট",
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "06:35",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:10",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004330_DU Apps.jpg",
+      "publishedLastUpdatedText": "06-Oct-2024",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 17
+    },
+    {
+      "slug": "curzon-kuwait-maitree",
+      "nameBn": "কার্জন হল টু কুয়েত মৈত্রী হল",
+      "subtitleFromScreenshot": "কার্জন হল টু কুয়েত মৈত্রী হল",
+      "routeUpText": "কার্জন হল, মোতাহার হোসেন ভবন, রোকেয়া হল, কলা ভবন, ভিসি চত্বর, কুয়েত মৈত্রী হল",
+      "routeDownText": "কুয়েত মৈত্রী হল, ভিসি চত্বর, কলা ভবন, রোকেয়া হল, মোতাহার হোসেন ভবন, কার্জন হল",
+      "schedule": [
+        {
+          "direction": "UP",
+          "departureTime": "07:40",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:15",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "08:40",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:15",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "09:40",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "10:15",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "UP",
+          "departureTime": "10:40",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "12:00",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "12:30",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:00",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "13:30",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "14:30",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "15:30",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        },
+        {
+          "direction": "DOWN",
+          "departureTime": "17:00",
+          "departurePlace": null,
+          "busType": null,
+          "vehicleNumber": null,
+          "notes": null,
+          "daysOfWeek": null,
+          "isStaffOnly": false
+        }
+      ],
+      "sourceScreenshot": "Screenshot_20261023_004337_DU Apps.jpg",
+      "publishedLastUpdatedText": "06-Oct-2024",
+      "sourceNotes": null,
+      "status": "NEEDS_ADMIN_VERIFICATION",
+      "routeGeometry": null,
+      "coordinatesVerified": false,
+      "sourceScreenshotIndex": 18
+    }
+  ]
+}
